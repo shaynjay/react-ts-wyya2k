@@ -4,7 +4,7 @@ h1, p {
 
 myApp {
   box-direction: inherit;
-  border-radius: -1;
+  border-radius: initial;
   display: block;
   height: max-content;
   background: scroll;
