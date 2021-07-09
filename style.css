@@ -1,5 +1,6 @@
-h1, p {
-  font-family: Lato;
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 myApp {
@@ -8,4 +9,17 @@ myApp {
   display: block;
   height: max-content;
   background: scroll;
+  border-top: crimson;
+  width: max-content;
+}
+
+textarea {
+  width: auto;
+  max-height:  max-content;
+}
+
+colgroup ::before {
+  margin: auto;
+  color-adjust: initial;
+  content: counter(-apple-system);
 }
