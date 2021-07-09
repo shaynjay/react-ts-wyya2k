@@ -1,3 +1,11 @@
 h1, p {
   font-family: Lato;
 }
+
+myApp {
+  box-direction: inherit;
+  border-radius: -1;
+  display: block;
+  height: max-content;
+  background: scroll;
+}
